@@ -1,0 +1,48 @@
+@import url("footer.css");
+
+.orange {
+  color: #f15412;
+}
+.intro-login {
+  background-color: rgb(235, 235, 235);
+  font-size: 0.8rem;
+}
+.linkHome {
+  text-decoration: none;
+}
+.my-container {
+  width: 70%;
+}
+.image-login {
+  width: 90%;
+  height: 100%;
+}
+.input-login {
+  width: 100%;
+  border: 1px solid #dfcec3;
+  color: #b4a69d;
+  padding: 10px 20px;
+}
+.remember {
+  color: #b4a69d;
+}
+.btn-login {
+  background-color: #f15412;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.form-login {
+  border: 1px solid #dfcec3;
+}
+@media screen and (max-width: 450px) {
+  .my-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 434px) {
+  .bg-language {
+    display: none !important;
+  }
+}

@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="image/favicon.png" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <title>Surfside</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-language">
+        <div class="container">
+          <div class="btn-group">
+            <i class="bi bi-globe-americas fs-5 mt-1"></i>
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="true"
+              aria-expanded="false"
+            >
+              English
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img class="h-25 w-25" src="image/uk.png" />English</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img class="h-25 w-25" src="image/deutsh.png" /> Deutsh
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img class="h-25 w-25" src="image/france.png" /> Français
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-flex w-25 justify-content-evenly">
+            <i class="bi bi-key key"></i>
+            <a class="link-login" href="login.html"><span>Log In</span></a>
+            <span>/</span>
+            <a class="link-login" href="signup.html"><span>Sign Up</span></a>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand w-50" href="index.html"
+            ><img
+              class="w-100 d-block d-md-none logo-nav"
+              src="image/logo.png"
+            />
+            <img class="w-50 d-none d-md-block logo-nav" src="image/logo.png" />
+          </a>
+          <button
+            class="d-none navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-none d-lg-flex"
+            id="navbarSupportedContent"
+          >
+            <form class="navbar-nav mx-auto mb-2 mb-lg-0 w-50">
+              <input
+                class="form-control me-2 rounded-5 w-75"
+                type="search"
+                placeholder="Search for items..."
+                aria-label="Search"
+              />
+            </form>
+            <div class="icon-nav fs-4" role="search">
+              <i class="bi bi-heart icon-heart"></i>
+              <i class="bi bi-bag-check icon-basket ms-3"></i>
+            </div>
+          </div>
+          <div class="d-flex d-lg-none icon-nav fs-4" role="search">
+            <i class="bi bi-heart icon-heart"></i>
+            <i class="bi bi-bag-check icon-basket ms-3"></i>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-two">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item me-xl-5 me-lg-0 pe-xl-5 pe-lg-0">
+                <a class="nav-link link" href=""
+                  ><i class="bi bi-grid-fill orange"></i>
+                  <span class="orange">Browse Categories</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active orange"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our collections
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-collection container">
+                  <div
+                    class="container-fluid container-lg px-0 px-lg-3 row mt-lg-3 justify-content-center"
+                  >
+                    <div
+                      class="col-6 col-xl-3 dropdown-collection px-0 px-lg-3"
+                    >
+                      <h6 class="orange mt-3 mt-xl-1 ms-4">Women's Fashion</h6>
+                      <ul class="fashion">
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Dresses</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Blouse & Shirts</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Hoodies & Sweatshirts</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Wedding Dresses</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Prom Dresses</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Cosplay Costumes</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      class="col-6 col-xl-3 dropdown-collection px-0 px-lg-3"
+                    >
+                      <h6 class="orange mt-3 mt-xl-1 ms-4">Men's Fashion</h6>
+                      <ul class="fashion">
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Jackets</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Casual Faux Lather</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Genuine Leather</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Casual Pants</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >SweatPants</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Harem Pants</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      class="col-6 col-xl-3 dropdown-collection px-0 px-lg-3"
+                    >
+                      <h6 class="orange mt-3 mt-xl-1 ms-4">Technology</h6>
+                      <ul class="fashion">
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link">Gaming Laptops</a>
+                        </li>
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link">UltraSlim Laptops</a>
+                        </li>
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link">Tablets</a>
+                        </li>
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link"
+                            >Laptops accessories</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link"
+                            >Tablets accessories</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      class="col-6 col-xl-3 mt-3 mt-xl-1 ms-3 ms-lg-0 image-collection position-relative"
+                    >
+                      <img
+                        class="w-100 image-banner-bag"
+                        src="image/menu-banner.jpg"
+                        alt="menu-banner"
+                      />
+                      <div class="text-bag-banner position-absolute">
+                        <h6>HOT DEALS</h6>
+                        <p class="fw-bold mb-0 bag-para">Don't miss</p>
+                        <p class="fw-bold bag-para mb-0">Trending</p>
+                        <p class="fw-bold bag-save">Save to 50%</p>
+                        <button class="btn-bag">Shop Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link">Contact</a>
+              </li>
+
+              <li class="nav-item dropdown me-xl-5 me-lg-0 pe-xl-5 pe-lg-0">
+                <a
+                  class="nav-link link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  My account
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item-account" href="#">Dashboard</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Products</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Categories</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Coupons</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Orders</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Customers</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="icon-nav fs-3 d-flex">
+              <i class="bi bi-phone fs-6"></i>
+              <span class="fs-6 me-1">Toll free</span>
+              <span class="fs-6 orange fw-bold">(+1) 0000-000-000</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="intro-blog">
+      <div class="container p-3">
+        <a class="linkHome" href="index.html"
+          ><span class="orange">Home</span>
+        </a>
+        <span class="text-secondary me-3 ms-3">></span>
+        <span class="text-secondary">Blog</span>
+      </div>
+    </section>
+
+    <section class="my-container mx-auto pt-5">
+      <div class="row g-5">
+        <div class="col-12 col-lg-9">
+          <h2 class="orange">Our Blog</h2>
+          <div class="subcategories-box">
+            <ul class="d-flex justify-content-between subcategories w-75">
+              <li class="text-secondary">32 Sub Categories</li>
+              <li class="text-secondary">1020k Article</li>
+              <li class="text-secondary">480 Authors</li>
+              <li class="text-secondary">29M Views</li>
+            </ul>
+          </div>
+          <div class="box-img-blog">
+            <img src="image/blog-6.jpg" alt="blog" class="img-blog" />
+            <div class="text-blog">
+              <div
+                class="d-flex flex-column flex-sm-row justify-content-between mobile-phone"
+              >
+                <div class="orange fw-bold">
+                  <i class="bi bi-circle me-1 mobile-phone"></i
+                  ><span>MOBILE PHONE</span>
+                </div>
+                <div class="text-secondary fw-bold">
+                  <i class="bi bi-eye ms-md-5"></i
+                  ><span class="ms-1">23k</span>
+                  <i class="bi bi-card-text ms-5"></i
+                  ><span class="ms-1">17k</span> <i class="bi bi-share ms-5"></i
+                  ><span class="ms-1">18k</span>
+                </div>
+              </div>
+
+              <div>
+                <h4 class="fw-bold mt-3 barcelona">
+                  Barcelona: marathan; south korean pulls away for a grueling
+                  surprise
+                </h4>
+                <h6 class="text-secondary mt-3 text-barcelona">
+                  These people envy me for having a lifestyle they don’t have,
+                  but the truth is, sometimes I envy their lifestyle instead.
+                  Struggling to sell one multi-million dollar home currently.
+                </h6>
+              </div>
+
+              <div
+                class="d-flex flex-column flex-sm-row justify-content-between pt-4"
+              >
+                <div class="azimeto text-secondary">
+                  <p class="mb-0">
+                    By <span class="orange">Azimeto</span>12/07/2022 09:35 EST 8
+                    mins read
+                  </p>
+                  <p>Updated 18/08/2022 07:12 EST</p>
+                </div>
+
+                <div>
+                  <button class="btn-blog">
+                    Read More <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-4 g-3">
+            <div class="col-12 col-md-6">
+              <div class="blog-card">
+                <img
+                  src="image/blog-2.jpg"
+                  alt="blog2"
+                  class="image-blog w-100"
+                />
+                <div class="text-card p-4">
+                  <h5 class="fw-bold title-blog">
+                    The Litigants On The Screen Are Not Actors
+                  </h5>
+                  <p class="text-secondary mt-3 para-blog">
+                    These people envy me for having a lifestyle they don’t have,
+                    but the truth is, sometimes I envy their lifestyle instead.
+                    Struggling to sell one multi.
+                  </p>
+                  <div class="d-flex justify-content-between text-secondary">
+                    <div class="date">
+                      <div class="d-flex">
+                        <div>
+                          <i class="bi bi-clock"></i>
+                          <span>25 April 2022</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-circle-fill ms-2"></i>
+                          <span>126k Views</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="date orange fw-bold">
+                      <span>Read More <i class="bi bi-arrow-right"></i> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="blog-card">
+                <img
+                  src="image/blog-8.jpg"
+                  alt="blog8"
+                  class="w-100 image-blog"
+                />
+                <div class="text-card p-4">
+                  <h5 class="fw-bold title-blog">
+                    Essentials Qualities Of Highly Successful Music
+                  </h5>
+                  <p class="text-secondary mt-3 para-blog">
+                    Graduating from a top accelerator or incubator can be as
+                    career-defining for a startup founder as an elite university
+                    diploma. The intensive programmes, which
+                  </p>
+                  <div class="d-flex justify-content-between text-secondary">
+                    <div class="date">
+                      <div class="d-flex">
+                        <div>
+                          <i class="bi bi-clock"></i>
+                          <span>25 April 2022</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-circle-fill ms-2"></i>
+                          <span>126k Views</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="date orange fw-bold">
+                      <span>Read More <i class="bi bi-arrow-right"></i> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="blog-card">
+                <img
+                  src="image/blog-3.jpg"
+                  alt="blog3"
+                  class="w-100 image-blog"
+                />
+                <div class="text-card p-4">
+                  <h5 class="fw-bold title-blog">
+                    9 Thinks I Love About Shaving My Head
+                  </h5>
+                  <p class="text-secondary mt-3 para-blog">
+                    At the Emmys, broadcast scripted shows created by people of
+                    color gained ground relative to those pitched by White show
+                    creators, while broadcast scripted shows.
+                  </p>
+                  <div class="d-flex justify-content-between text-secondary">
+                    <div class="date">
+                      <div class="d-flex">
+                        <div>
+                          <i class="bi bi-clock"></i>
+                          <span>25 April 2022</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-circle-fill ms-2"></i>
+                          <span>126k Views</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="date orange fw-bold">
+                      <span>Read More <i class="bi bi-arrow-right"></i> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="blog-card">
+                <img
+                  src="image/blog-4.jpg"
+                  alt="blog4"
+                  class="w-100 image-blog"
+                />
+                <div class="text-card p-4">
+                  <h5 class="fw-bold title-blog">
+                    Why Teamwork Really Makes The Dream Work
+                  </h5>
+                  <p class="text-secondary mt-3 para-blog">
+                    We live in a world where disruption and dynamism reign
+                    supreme and businesses must be ready to adapt to the many
+                    unpredictable changes that come with this.
+                  </p>
+                  <div class="d-flex justify-content-between text-secondary">
+                    <div class="date">
+                      <div class="d-flex">
+                        <div>
+                          <i class="bi bi-clock"></i>
+                          <span>25 April 2022</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-circle-fill ms-2"></i>
+                          <span>126k Views</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="date orange fw-bold">
+                      <span>Read More <i class="bi bi-arrow-right"></i> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="blog-card">
+                <img
+                  src="image/blog-5.jpg"
+                  alt="blog5"
+                  class="w-100 image-blog"
+                />
+                <div class="text-card p-4">
+                  <h5 class="fw-bold title-blog">
+                    The World Caters to Average People
+                  </h5>
+                  <p class="text-secondary mt-3 para-blog">
+                    These people envy me for having a lifestyle they don’t have,
+                    but the truth is, sometimes I envy their lifestyle instead.
+                    Struggling to sell oney.
+                  </p>
+                  <div class="d-flex justify-content-between text-secondary">
+                    <div class="date">
+                      <div class="d-flex">
+                        <div>
+                          <i class="bi bi-clock"></i>
+                          <span>25 April 2022</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-circle-fill ms-2"></i>
+                          <span>126k Views</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="date orange fw-bold">
+                      <span>Read More <i class="bi bi-arrow-right"></i> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="blog-card">
+                <img
+                  src="image/blog-9.jpg"
+                  alt="blog9"
+                  class="w-100 image-blog"
+                />
+                <div class="text-card p-4">
+                  <h5 class="fw-bold title-blog">
+                    Esential Qualities Of Highly Successfuly Music
+                  </h5>
+                  <p class="text-secondary mt-3 para-blog">
+                    We live in a world where disruption and dynamism reign
+                    supreme and businesses must be ready to adapt to the many
+                    unpredictable changes that come with this.
+                  </p>
+                  <div class="d-flex justify-content-between text-secondary">
+                    <div class="date">
+                      <div class="d-flex">
+                        <div>
+                          <i class="bi bi-clock"></i>
+                          <span>25 April 2022</span>
+                        </div>
+                        <div>
+                          <i class="bi bi-circle-fill ms-2"></i>
+                          <span>126k Views</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="date orange fw-bold">
+                      <span>Read More <i class="bi bi-arrow-right"></i> </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-4">
+              <div class="d-flex justify-content-between mt-5">
+                <span class="page">01</span>
+                <span class="page">02</span>
+                <span class="page">03</span>
+                <span class="page">...</span>
+                <span class="page">16</span>
+                <span class="page"
+                  ><i class="bi bi-chevron-double-right"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-3 aside">
+          <div class="position-relative">
+            <input placeholder="Search..." type="text" class="input-search" />
+            <div class="search-icone position-absolute">
+              <i class="bi bi-search icon-loupe"></i>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <div class="categories-aside">
+              <h6>CATEGORIES</h6>
+            </div>
+            <div class="d-flex justify-content-between border-categories mt-3">
+              <p class="orange police-categories mb-0">Beauty</p>
+              <p class="text-secondary police-categories mb-0">(3)</p>
+            </div>
+            <div class="d-flex justify-content-between border-categories mt-3">
+              <p class="orange police-categories mb-0">Book</p>
+              <p class="text-secondary police-categories mb-0">(6)</p>
+            </div>
+            <div class="d-flex justify-content-between border-categories mt-3">
+              <p class="orange police-categories mb-0">Design</p>
+              <p class="text-secondary police-categories mb-0">(4)</p>
+            </div>
+            <div class="d-flex justify-content-between border-categories mt-3">
+              <p class="orange police-categories mb-0">Fashion</p>
+              <p class="text-secondary police-categories mb-0">(3)</p>
+            </div>
+            <div class="d-flex justify-content-between border-categories mt-3">
+              <p class="orange police-categories mb-0">Lifestyle</p>
+              <p class="text-secondary police-categories mb-0">(6)</p>
+            </div>
+            <div class="d-flex justify-content-between border-categories mt-3">
+              <p class="orange police-categories mb-0">Travel</p>
+              <p class="text-secondary police-categories mb-0">(2)</p>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <div class="categories-aside">
+              <h6>TRENDING NOW</h6>
+            </div>
+            <div class="img-trending-container">
+              <img
+                src="image/blog-1.jpg"
+                alt="blog-photo"
+                class="w-100 mt-3 img-trending"
+              />
+            </div>
+            <h6 class="fw-bold mt-2">
+              The litigants on the screen are not actors
+            </h6>
+            <div class="d-flex text-secondary date">
+              <div class="">
+                <span>25 April 2022</span>
+              </div>
+              <div>
+                <i class="bi bi-circle-fill ms-2 icon-circle"></i>
+                <span>126k Views</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-6 mini-img">
+              <img
+                src="image/blog-3.jpg"
+                alt="imageblog"
+                class="w-100 img-trending"
+              />
+              <p class="mini-police mt-2">
+                Water Partners With Rag & Bne To Consume
+              </p>
+              <div class="text-secondary date">
+                <div class="">
+                  <span>25 April 2022</span>
+                </div>
+                <div>
+                  <span>126k Views</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mini-img">
+              <img
+                src="image/blog-4.jpg"
+                alt="imageblog"
+                class="w-100 img-trending"
+              />
+              <p class="mini-police mt-2">
+                The loss is not all that surprising
+              </p>
+              <div class="text-secondary date">
+                <div class="pt-3">
+                  <span>25 April 2022</span>
+                </div>
+                <div>
+                  <span>126k Views</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mini-img mt-4">
+              <img
+                src="image/blog-5.jpg"
+                alt="imageblog"
+                class="w-100 img-trending"
+              />
+              <p class="mini-police mt-2">
+                We got a right to pick a little fight, Bonanza
+              </p>
+              <div class="text-secondary date">
+                <div class="">
+                  <span>25 April 2022</span>
+                </div>
+                <div>
+                  <span>126k Views</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mini-img mt-4">
+              <img
+                src="image/blog-6.jpg"
+                alt="imageblog"
+                class="w-100 img-trending"
+              />
+              <p class="mini-police mt-2">
+                My entrance exam was on a book of matches
+              </p>
+              <div class="text-secondary date">
+                <div>
+                  <span>25 April 2022</span>
+                </div>
+                <div>
+                  <span>126k Views</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="card card-blue-dress text-bg-light mb-3 mt-4 position-relative mx-auto"
+            style="width: 15rem"
+          >
+            <img src="image/banner-11.jpg" />
+            <div class="text-blue-dress position-absolute">
+              <p class="text-secondary mb-1">Women Zone</p>
+              <div class="text-office-moove">
+                <p class="mb-0 text-office-dress">Save 17% on</p>
+                <p class="text-office-dress">Office Dress</p>
+              </div>
+              <span class="orange shop-blue-dress">Shop Now</span>
+              <i class="bi bi-arrow-right orange arrow-blue-dress"></i>
+            </div>
+          </div>
+
+          <div class="mt-5">
+            <div class="categories-aside">
+              <h6>POPULAR TAGS</h6>
+            </div>
+            <div class="mt-4">
+              <button class="btn-tag">beautiful</button>
+              <button class="btn-tag">New-York</button>
+              <button class="btn-tag">droll</button>
+              <button class="btn-tag mt-2">intimate</button>
+              <button class="btn-tag mt-2">loving</button>
+              <button class="btn-tag mt-2">travel</button>
+              <button class="btn-tag mt-2">fighting</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="newsletter pt-4 pb-4 mt-5">
+      <div class="container">
+        <div class="row g-3 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-sm-5 col-lg-4">
+            <i class="bi bi-envelope-at fs-4"></i>
+            <span class="ms-2 fs-6 fw-bold">Sign up to Newsletter</span>
+          </div>
+
+          <div class="col-12 col-sm-5 col-lg-4">
+            <span>...and receive $25 coupon for first shopping</span>
+          </div>
+
+          <div class="col-12 col-sm-7 col-lg-4">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control rounded-0"
+                type="search"
+                placeholder="Enter your Email"
+                aria-label="Search"
+              />
+              <button class="btn-newsletter" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container pt-4">
+      <div class="row">
+        <div class="col-12 col-xl-3">
+          <img
+            class="logo-footer col-6 col-md-4 col-xl-8"
+            src="image/logo.png"
+            alt="logo"
+          />
+          <h6 class="text-secondary contact fw-bold mt-3">Contact</h6>
+          <div class="mb-4">
+            <p class="info-contact mb-0">
+              <span class="fw-bold">Address:</span> 562 Wellington Road
+            </p>
+            <p class="info-contact mb-0">
+              <span class="fw-bold">Phone:</span> + 1 0000-000-000
+            </p>
+            <p class="info-contact">
+              <span class="fw-bold">Email:</span>contact@surfsidemedia.in
+            </p>
+          </div>
+
+          <h6 class="text-secondary fw-bold contact">Follow us</h6>
+
+          <i class="bi bi-facebook icone-footer"></i>
+          <i class="bi bi-twitter icone-footer ms-2"></i>
+          <i class="bi bi-instagram icone-footer ms-2"></i>
+          <i class="bi bi-pinterest icone-footer ms-2"></i>
+          <i class="bi bi-youtube icone-footer ms-2"></i>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+          <div class="ms-1 mt-3">
+            <h6 class="fw-bold">About</h6>
+            <ul class="about-footer ps-0 mt-4">
+              <a href="about.html" class="link-footer"
+                ><li class="mt-2">About Us</li></a
+              >
+              <li class="mt-2">Delivery Information</li>
+              <li class="mt-2">Privacy Policy</li>
+              <li class="mt-2">Terms & Conditions</li>
+              <li class="mt-2">Contact Us</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+          <div class="ms-1 mt-3">
+            <h6 class="fw-bold">My Account</h6>
+            <ul class="about-footer ps-0 mt-4">
+              <li class="mt-2">My account</li>
+              <li class="mt-2">View cart</li>
+              <li class="mt-2">My wishlist</li>
+              <li class="mt-2">Track my order</li>
+              <li class="mt-2">Order</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="ms-0 mt-3">
+            <h6 class="fw-bold mb-3">Install App</h6>
+            <p class="text-secondary">From App Store or Google Play</p>
+            <div class="d-flex mb-4">
+              <img
+                class="image-footer"
+                src="image/app-store.jpg"
+                alt="app-store"
+              />
+              <img
+                class="image-footer ms-2"
+                src="image/google-play.jpg"
+                alt="gogle-play"
+              />
+            </div>
+            <p class="text-secondary">Secured Payment Gateways</p>
+            <div class="img-payment-method">
+              <img
+                class="w-75 img-payment-method"
+                src="image/payment-method.png"
+                alt="payment-method"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="text-secondary container" />
+
+      <div class="container d-sm-flex justify-content-between ps-0">
+        <p class="orange">Privacy Policy|Terms & Conditions</p>
+        <div>
+          <span class="text-secondary">&copy</span>
+          <span class="orange">SurfsideMedia</span>
+          <span class="text-secondary">All rights reserved</span>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/theiasticky.min.js"></script>
+    <script>
+      if ($(".aside").length) {
+        $(".aside").theiaStickySidebar({
+          additionalMarginTop: 0,
+        });
+      }
+    </script>
+  </body>
+</html>

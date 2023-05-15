@@ -1,0 +1,234 @@
+.imgs-container {
+  z-index: -0;
+}
+.imgs-container:hover .card-img-top {
+  visibility: hidden;
+}
+.card-img-bottom {
+  left: 0;
+  z-index: -1;
+}
+.card-title:hover {
+  color: #f15412;
+}
+.card-info:hover {
+  color: #f15412 !important;
+}
+.card-info {
+  font-size: 0.7rem;
+}
+.imgs-container img {
+  border-radius: 30px;
+}
+.icon-star {
+  font-size: 0.7rem;
+}
+.hot:after {
+  content: "Hot";
+  font-size: 0.7rem;
+  position: absolute;
+  background-color: #ff75a0;
+  border-radius: 25%;
+  width: 40px;
+  height: 15px;
+  right: 80%;
+  top: 7%;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.new:after {
+  content: "New";
+  font-size: 0.7rem;
+  position: absolute;
+  background-color: #99bbad;
+  border-radius: 25%;
+  width: 40px;
+  height: 15px;
+  right: 80%;
+  top: 7%;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.bestsell:after {
+  content: "Best Sell";
+  font-size: 0.7rem;
+  position: absolute;
+  background-color: #ffab73;
+  border-radius: 25%;
+  width: 52px;
+  height: 15px;
+  right: 75%;
+  top: 7%;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.sale:after {
+  content: "Sale";
+  font-size: 0.7rem;
+  position: absolute;
+  background-color: #a1cae2;
+  border-radius: 25%;
+  width: 40px;
+  height: 15px;
+  right: 75%;
+  top: 7%;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.remise:after {
+  content: "-30%";
+  font-size: 0.7rem;
+  position: absolute;
+  background-color: #ff75a0;
+  border-radius: 25%;
+  width: 40px;
+  height: 15px;
+  right: 75%;
+  top: 7%;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.remise2:after {
+  content: "-22%";
+  font-size: 0.7rem;
+  position: absolute;
+  background-color: #ff75a0;
+  border-radius: 25%;
+  width: 40px;
+  height: 15px;
+  right: 75%;
+  top: 7%;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.add {
+  position: relative;
+  z-index: 0;
+  left: 80%;
+  bottom: 5%;
+}
+.add:after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #baf1f6;
+  z-index: -1;
+  right: -60%;
+  top: -20%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(200, 199, 199);
+}
+.icon-group {
+  top: 40%;
+  left: 30%;
+  color: #f15412;
+  font-size: 0.8rem;
+}
+.imgs-container:hover .icon-group {
+  display: flex !important;
+}
+.icon-eye {
+  z-index: 0;
+  transition: all 1s;
+}
+.icon-eye:hover {
+  transform: translateY(-5px);
+}
+.icon-eye:hover::after {
+  background-color: #f15412;
+}
+.icon-eye:hover::before {
+  color: white;
+}
+.icon-eye:after {
+  content: "";
+  position: absolute;
+  background-color: #ebf7f7;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  right: -8px;
+  top: -6px;
+  display: flex-inline;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.icon-love {
+  z-index: 0;
+  transition: all 1s;
+}
+.icon-love:hover {
+  transform: translateY(-5px);
+}
+.icon-love:hover::after {
+  background-color: #f15412;
+}
+.icon-love:hover::before {
+  color: white;
+}
+.icon-love:after {
+  content: "";
+  position: absolute;
+  background-color: #ebf7f7;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  left: -8px;
+  top: -7px;
+  display: flex-inline;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.icon-compare {
+  z-index: 0;
+  transition: all 1s;
+}
+.icon-compare:hover {
+  transform: translateY(-5px);
+}
+.icon-compare:hover::before {
+  color: white;
+}
+.icon-compare:hover::after {
+  background-color: #f15412;
+}
+.icon-compare:after {
+  content: "";
+  position: absolute;
+  background-color: #ebf7f7;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  top: -6px;
+  left: -8px;
+  display: flex-inline;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.tooltip-inner {
+  background-color: #f15412 !important;
+  color: #fff;
+  font-size: 0.6rem;
+}
+.tooltip-arrow::before {
+  border-top-color: #f15412 !important;
+}

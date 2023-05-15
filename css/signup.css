@@ -1,0 +1,8 @@
+.link-login {
+  text-decoration: none;
+}
+@media screen and (max-width: 434px) {
+  .bg-language {
+    display: none !important;
+  }
+}

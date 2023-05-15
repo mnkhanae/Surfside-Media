@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/fashion.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <link rel="shortcut icon" type="image/png" href="image/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>Surfside</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-language">
+        <div class="container">
+          <div class="btn-group">
+            <i class="bi bi-globe-americas fs-5 mt-1"></i>
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="true"
+              aria-expanded="false"
+            >
+              English
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img class="h-25 w-25" src="image/uk.png" />English</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <img class="h-25 w-25" src="image/deutsh.png" /> Deutsh
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img class="h-25 w-25" src="image/france.png" /> Français
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-flex w-25 justify-content-evenly">
+            <i class="bi bi-key key"></i>
+            <a class="link-login" href="login.html"><span>Log In</span></a>
+            <span>/</span>
+            <a class="link-login" href="signup.html"><span>Sign Up</span></a>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand w-50" href="index.html"
+            ><img
+              class="w-100 d-block d-md-none logo-nav"
+              src="image/logo.png"
+            />
+            <img class="w-50 d-none d-md-block logo-nav" src="image/logo.png" />
+          </a>
+          <button
+            class="d-none navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-none d-lg-flex"
+            id="navbarSupportedContent"
+          >
+            <form class="navbar-nav mx-auto mb-2 mb-lg-0 w-50">
+              <input
+                class="form-control me-2 rounded-5 w-75"
+                type="search"
+                placeholder="Search for items..."
+                aria-label="Search"
+              />
+            </form>
+            <div class="icon-nav fs-4" role="search">
+              <i class="bi bi-heart icon-heart"></i>
+              <i class="bi bi-bag-check icon-basket ms-3"></i>
+            </div>
+          </div>
+          <div class="d-flex d-lg-none icon-nav fs-4" role="search">
+            <i class="bi bi-heart icon-heart"></i>
+            <i class="bi bi-bag-check icon-basket ms-3"></i>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-two">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item me-xl-5 me-lg-0 pe-xl-5 pe-lg-0">
+                <a class="nav-link link" href=""
+                  ><i class="bi bi-grid-fill orange"></i>
+                  <span class="orange">Browse Categories</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active orange"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Our collections
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-collection container">
+                  <div
+                    class="container-fluid container-lg px-0 px-lg-3 row mt-lg-3 justify-content-center"
+                  >
+                    <div
+                      class="col-6 col-xl-3 dropdown-collection px-0 px-lg-3"
+                    >
+                      <h6 class="orange mt-3 mt-xl-1 ms-4">Women's Fashion</h6>
+                      <ul class="fashion">
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Dresses</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Blouse & Shirts</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Hoodies & Sweatshirts</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Wedding Dresses</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Prom Dresses</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Cosplay Costumes</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      class="col-6 col-xl-3 dropdown-collection px-0 px-lg-3"
+                    >
+                      <h6 class="orange mt-3 mt-xl-1 ms-4">Men's Fashion</h6>
+                      <ul class="fashion">
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Jackets</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Casual Faux Lather</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Genuine Leather</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Casual Pants</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >SweatPants</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="fashion.html" class="fashion-link"
+                            >Harem Pants</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      class="col-6 col-xl-3 dropdown-collection px-0 px-lg-3"
+                    >
+                      <h6 class="orange mt-3 mt-xl-1 ms-4">Technology</h6>
+                      <ul class="fashion">
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link">Gaming Laptops</a>
+                        </li>
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link">UltraSlim Laptops</a>
+                        </li>
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link">Tablets</a>
+                        </li>
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link"
+                            >Laptops accessories</a
+                          >
+                        </li>
+                        <li class="mt-2">
+                          <a href="#" class="fashion-link"
+                            >Tablets accessories</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div
+                      class="col-6 col-xl-3 mt-3 mt-xl-1 ms-3 ms-lg-0 image-collection position-relative"
+                    >
+                      <img
+                        class="w-100 image-banner-bag"
+                        src="image/menu-banner.jpg"
+                        alt="menu-banner"
+                      />
+                      <div class="text-bag-banner position-absolute">
+                        <h6>HOT DEALS</h6>
+                        <p class="fw-bold mb-0 bag-para">Don't miss</p>
+                        <p class="fw-bold bag-para mb-0">Trending</p>
+                        <p class="fw-bold bag-save">Save to 50%</p>
+                        <button class="btn-bag">Shop Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link">Contact</a>
+              </li>
+
+              <li class="nav-item dropdown me-xl-5 me-lg-0 pe-xl-5 pe-lg-0">
+                <a
+                  class="nav-link link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  My account
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item-account" href="#">Dashboard</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Products</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Categories</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Coupons</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Orders</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Customers</a>
+                  </li>
+                  <li class="mt-1">
+                    <a class="dropdown-item-account" href="#">Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="icon-nav fs-3 d-flex">
+              <i class="bi bi-phone fs-6"></i>
+              <span class="fs-6 me-1">Toll free</span>
+              <span class="fs-6 orange fw-bold">(+1) 0000-000-000</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="intro-fashion">
+        <div class="container p-3">
+          <a class="linkHome" href="index.html"
+            ><span class="orange">Home</span></a
+          >
+          <span class="text-secondary me-3 ms-3">></span>
+          <span class="text-secondary">Fashion</span>
+        </div>
+      </section>
+
+      <section class="container mt-5">
+        <div class="row">
+          <div class="row col-12 col-lg-9 h-50">
+            <div class="col-12 col-sm-6 position-relative">
+              <div>
+                <img
+                  src="image/product-16-2.jpg"
+                  alt="product-16-2"
+                  class="w-100 image-fashion"
+                />
+              </div>
+              <div class="share mt-4 text-center text-secondary">
+                <p class="small-text mb-1">Share this:</p>
+                <i class="bi bi-facebook me-1"></i>
+                <i class="bi bi-twitter me-1"></i>
+                <i class="bi bi-instagram me-1"></i>
+                <i class="bi bi-pinterest"></i>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <h4>Colorful Pattern Shirts HD450</h4>
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div>
+                  <span class="small-text text-secondary">
+                    Brands: <a class="small-text linkHome orange">Bootstrap</a>
+                  </span>
+                </div>
+                <div>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <span class="small-text text-secondary">(25 reviews)</span>
+                </div>
+              </div>
+              <div class="price-span pt-2 pb-2">
+                <span class="orange fs-3 fw-bold">$150.00</span>
+                <span
+                  class="small-text text-secondary text-decoration-line-through ms-2"
+                  >$200.00</span
+                >
+                <span class="small-text text-secondary ms-2">25% Off</span>
+              </div>
+              <p class="text-secondary small-text mt-3 mb-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquam rem officia, corrupti reiciendis minima nisi modi,
+                quasi, odio minus dolore impedit fuga eum eligendi? Officia
+                doloremque facere quia. Voluptatum, accusantium!
+              </p>
+              <div class="small-text text-secondary mb-4">
+                <p class="mb-1">
+                  <i class="bi bi-check-square me-2"></i>1 Year AL Jazeera Brand
+                  Warranty
+                </p>
+                <p class="mb-1">
+                  <i class="bi bi-arrow-repeat me-2"></i>30 Day Return Policy
+                </p>
+                <p>
+                  <i class="bi bi-credit-card me-2"></i>Cash on Delivery
+                  available
+                </p>
+              </div>
+              <div class="d-flex align-items-center">
+                <span class="text-secondary-emphasis small-text me-2 fw-bold"
+                  >Color</span
+                >
+                <div class="pink color-circle me-1"></div>
+                <div class="yellow color-circle me-1"></div>
+                <div class="white color-circle me-1"></div>
+                <div class="orang color-circle me-1"></div>
+                <div class="blue color-circle me-1"></div>
+                <div class="green color-circle me-1"></div>
+                <div class="pink-clair color-circle me-1"></div>
+              </div>
+              <div class="d-flex align-items-center mt-3">
+                <span class="text-secondary-emphasis small-text me-2 fw-bold"
+                  >Size</span
+                >
+                <button class="btn-size text-secondary">S</button>
+                <button class="btn-size text-secondary ms-2">M</button>
+                <button class="btn-size text-secondary ms-2">L</button>
+                <button class="btn-size text-secondary ms-2">XL</button>
+                <button class="btn-size text-secondary ms-2">XXL</button>
+              </div>
+              <div>
+                <input
+                  type="number"
+                  class="input-number-article mt-4 text-secondary"
+                  placeholder="1"
+                  min="1"
+                />
+                <button class="add-to-cart me-2">Add to cart</button>
+                <div class="btn-heart">
+                  <button class="btn-heart-arrow me-1">
+                    <i class="bi bi-suit-heart"></i>
+                  </button>
+                  <button class="btn-heart-arrow">
+                    <i class="bi bi-shuffle"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="mt-5 availability pt-3">
+                <p class="small-text text-secondary mb-1">
+                  SKU : <span class="orange">FWM15VKT</span>
+                </p>
+                <p class="small-text text-secondary mb-1">
+                  Tags : <span class="orange">Clothes, Women, Dress</span>
+                </p>
+                <p class="small-text text-secondary">
+                  Availability : <span class="turquoise">8 items in stock</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 mt-0">
+              <p class="orange fw-bold">DESCRIPTION</p>
+              <p class="text-secondary small-text">
+                Uninhibited carnally hired played in whimpered dear gorilla
+                koala depending and much yikes off far quetzal goodness and from
+                for grimaced goodness unaccountably and meadowlark near
+                unblushingly crucial scallop tightly neurotic hungrily some and
+                dear furiously this apart.<br />
+                Spluttered narrowly yikes left moth in yikes bowed this that
+                grizzly much hello on spoon-fed that alas rethought much
+                decently richly and wow against the frequent fluidly at
+                formiType Of Packingdable acceptably flapped besides and much
+                circa far over the bucolically hey precarious goldfinch mastodon
+                goodness gnashed a jellyfish and one however because.
+              </p>
+              <div class="row info-product-container">
+                <div class="col-6 col-md-3">
+                  <ul class="text-secondary small-text">
+                    <li class="mb-1">Type Of Packing</li>
+                    <li class="mb-1">Color</li>
+                    <li class="mb-1">Quantity per Case</li>
+                    <li class="mb-1">Ethyl alcohol</li>
+                    <li class="mb-1">Piece in One</li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-4">
+                  <ul class="text-secondary small-text info-product">
+                    <li class="mb-1">Bottle</li>
+                    <li class="mb-1">Green, Pink, Powder Blue, Purple</li>
+                    <li class="mb-1">100ml</li>
+                    <li class="mb-1">70%</li>
+                    <li class="mb-1">Carton</li>
+                  </ul>
+                </div>
+              </div>
+              <p class="text-secondary small-text text-border-top pt-3">
+                Laconic overheard dear woodchuck wow this outrageously taut
+                beaver hey hello far meadowlark imitatively egregiously hugged
+                that yikes minimally unanimous pouted flirtatiously as beaver
+                beheld above forward energetic across this jeepers beneficently
+                cockily less a the raucously that magic upheld far so the this
+                where crud then below after jeez enchanting drunkenly more much
+                wow callously irrespective limpet.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 colonne-aside mt-0">
+            <div
+              class="card card-aside-shop text-bg-light mb-3 mx-auto"
+              style="width: 15rem"
+            >
+              <div class="card-body">
+                <h5 class="card-title-shop ms-3">Category</h5>
+                <ul class="card-text-shop">
+                  <li class="li-shop mt-4">Shoes & Bags</li>
+                  <li class="li-shop mt-2">Blouses & Shirts</li>
+                  <li class="li-shop mt-2">Dresses</li>
+                  <li class="li-shop mt-2">Swimwear</li>
+                  <li class="li-shop mt-2">Beauty</li>
+                  <li class="li-shop mt-2">Jewelry & Watch</li>
+                  <li class="li-shop mt-2">Accessories</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="card card-aside-shop text-bg-light mb-3 mt-4 mx-auto"
+              style="width: 15rem"
+            >
+              <div class="card-body">
+                <h5 class="card-title-shop ms-3">Fill by price</h5>
+                <input class="mt-3" type="range" />
+
+                <div class="text-fill-price ms-2">
+                  <p class="mb-0">Range:</p>
+                  <p class="fw-bold">$16 - $198</p>
+
+                  <h6 class="title-checkbox">Color</h6>
+
+                  <div>
+                    <input type="checkbox" />
+                    <span class="text-secondary">Red(56)</span>
+                  </div>
+                  <div class="mt-1">
+                    <input type="checkbox" />
+                    <span class="text-secondary">Green(78)</span>
+                  </div>
+                  <div class="mt-1">
+                    <input type="checkbox" />
+                    <span class="text-secondary">Blue(58)</span>
+                  </div>
+
+                  <h6 class="title-checkbox mt-4">Item condition</h6>
+
+                  <div>
+                    <input type="checkbox" />
+                    <span class="text-secondary">New(1506)</span>
+                  </div>
+                  <div class="mt-1">
+                    <input type="checkbox" />
+                    <span class="text-secondary">Refurbished(27)</span>
+                  </div>
+                  <div class="mt-1">
+                    <input type="checkbox" />
+                    <span class="text-secondary">Used(45)</span>
+                  </div>
+
+                  <button class="btn-checkbox mt-3">
+                    <div class="filter-moove">
+                      <i class="bi bi-funnel me-1"></i>Filter
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card card-aside-shop text-bg-white mb-3 mt-4 mx-auto"
+              style="width: 15rem"
+            >
+              <div class="card-body">
+                <h5 class="card-title-shop ms-3">New products</h5>
+                <div
+                  class="list-new-products mt-4 d-flex justify-content-start align-items-center"
+                >
+                  <img
+                    class="me-2 img-new-product"
+                    src="image/thumbnail-3.jpg"
+                    alt="thumbnail"
+                  />
+
+                  <div class="tex-new-products ms-2">
+                    <h6 class="orange">Chen Cardigan</h6>
+                    <p class="mb-0">$99.50</p>
+                    <div class="stars-new-products">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="list-new-products mt-4 d-flex justify-content-start align-items-center"
+                >
+                  <img
+                    class="me-2 img-new-product"
+                    src="image/thumbnail-4.jpg"
+                    alt="thumbnail"
+                  />
+
+                  <div class="tex-new-products ms-2">
+                    <h6 class="orange">Chen Sweater</h6>
+                    <p class="mb-0">$89.50</p>
+                    <div class="stars-new-products">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-secondary"></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="list-new-products mt-4 d-flex justify-content-start align-items-center"
+                >
+                  <img
+                    class="me-2 img-new-product"
+                    src="image/thumbnail-5.jpg"
+                    alt="thumbnail"
+                  />
+
+                  <div class="tex-new-products ms-2">
+                    <h6 class="orange">Colorful Jacket</h6>
+                    <p class="mb-0">$25</p>
+                    <div class="stars-new-products">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-secondary"></i>
+                      <i class="bi bi-star-fill text-secondary"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="newsletter pt-4 pb-4">
+      <div class="container">
+        <div class="row g-3 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-sm-5 col-lg-4">
+            <i class="bi bi-envelope-at fs-4"></i>
+            <span class="ms-2 fs-6 fw-bold">Sign up to Newsletter</span>
+          </div>
+
+          <div class="col-12 col-sm-5 col-lg-4">
+            <span>...and receive $25 coupon for first shopping</span>
+          </div>
+
+          <div class="col-12 col-sm-7 col-lg-4">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control rounded-0"
+                type="search"
+                placeholder="Enter your Email"
+                aria-label="Search"
+              />
+              <button class="btn-newsletter" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container pt-4">
+      <div class="row">
+        <div class="col-12 col-xl-3">
+          <img
+            class="logo-footer col-6 col-md-4 col-xl-8"
+            src="image/logo.png"
+            alt="logo"
+          />
+          <h6 class="text-secondary contact fw-bold mt-3">Contact</h6>
+          <div class="mb-4">
+            <p class="info-contact mb-0">
+              <span class="fw-bold">Address:</span> 562 Wellington Road
+            </p>
+            <p class="info-contact mb-0">
+              <span class="fw-bold">Phone:</span> + 1 0000-000-000
+            </p>
+            <p class="info-contact">
+              <span class="fw-bold">Email:</span>contact@surfsidemedia.in
+            </p>
+          </div>
+
+          <h6 class="text-secondary fw-bold contact">Follow us</h6>
+
+          <i class="bi bi-facebook icone-footer"></i>
+          <i class="bi bi-twitter icone-footer ms-2"></i>
+          <i class="bi bi-instagram icone-footer ms-2"></i>
+          <i class="bi bi-pinterest icone-footer ms-2"></i>
+          <i class="bi bi-youtube icone-footer ms-2"></i>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+          <div class="ms-1 mt-3">
+            <h6 class="fw-bold">About</h6>
+            <ul class="about-footer ps-0 mt-4">
+              <a href="about.html" class="link-footer"
+                ><li class="mt-2">About Us</li></a
+              >
+              <li class="mt-2">Delivery Information</li>
+              <li class="mt-2">Privacy Policy</li>
+              <li class="mt-2">Terms & Conditions</li>
+              <li class="mt-2">Contact Us</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+          <div class="ms-1 mt-3">
+            <h6 class="fw-bold">My Account</h6>
+            <ul class="about-footer ps-0 mt-4">
+              <li class="mt-2">My account</li>
+              <li class="mt-2">View cart</li>
+              <li class="mt-2">My wishlist</li>
+              <li class="mt-2">Track my order</li>
+              <li class="mt-2">Order</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="ms-0 mt-3">
+            <h6 class="fw-bold mb-3">Install App</h6>
+            <p class="text-secondary">From App Store or Google Play</p>
+            <div class="d-flex mb-4">
+              <img
+                class="image-footer"
+                src="image/app-store.jpg"
+                alt="app-store"
+              />
+              <img
+                class="image-footer ms-2"
+                src="image/google-play.jpg"
+                alt="gogle-play"
+              />
+            </div>
+            <p class="text-secondary">Secured Payment Gateways</p>
+            <div class="img-payment-method">
+              <img
+                class="w-75 img-payment-method"
+                src="image/payment-method.png"
+                alt="payment-method"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="text-secondary container" />
+
+      <div class="container d-sm-flex justify-content-between ps-0">
+        <p class="orange">Privacy Policy|Terms & Conditions</p>
+        <div>
+          <span class="text-secondary">&copy</span>
+          <span class="orange">SurfsideMedia</span>
+          <span class="text-secondary">All rights reserved</span>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/fashion.js"></script>
+  </body>
+</html>

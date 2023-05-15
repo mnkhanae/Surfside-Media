@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+.my-container {
+  width: 75%;
+}
+.orange {
+  color: #f15412 !important;
+}
+.intro-blog {
+  background-color: rgb(235, 235, 235);
+  font-size: 0.8rem;
+}
+.linkHome {
+  text-decoration: none;
+}
+.subcategories {
+  font-size: 0.7rem !important;
+}
+.img-blog {
+  width: 100% !important;
+  height: 500px;
+  transition: transform 2s;
+  object-fit: cover;
+}
+.img-blog:hover {
+  transform: scale(1.1);
+}
+.box-img-blog {
+  border: 1px solid rgb(178, 178, 178);
+  overflow: hidden;
+}
+.mobile-phone {
+  font-size: 0.6rem;
+}
+.btn-blog {
+  border: none;
+  background-color: #f15412;
+  color: white;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  padding: 10px 15px;
+}
+.azimeto {
+  font-size: 0.7rem;
+}
+.text-blog {
+  padding: 40px 50px;
+}
+.barcelona:hover {
+  color: #f15412;
+}
+.blog-card {
+  border: 1px solid rgb(178, 178, 178);
+}
+.date {
+  font-size: 0.7rem;
+}
+.para-blog {
+  font-size: 0.8rem;
+}
+.title-blog:hover {
+  color: #f15412;
+}
+.image-blog {
+  transition: transform 3s;
+}
+.image-blog:hover {
+  transform: scale(1.1);
+}
+.blog-card {
+  overflow: hidden;
+  transition: transform 1s;
+}
+.blog-card:hover {
+  transform: translateY(-8px);
+}
+.page {
+  color: rgb(121, 121, 121);
+  font-size: 0.8rem;
+}
+.page:hover {
+  background-color: #f15412;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+.search-icone {
+  right: 0%;
+  top: 50%;
+  transform: translate(5%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 100%;
+  width: 35px;
+}
+.search-icone:hover {
+  background-color: #f15412;
+}
+.input-search {
+  border: 1px solid rgb(201, 201, 201);
+  padding: 5px 20px;
+  outline: none;
+}
+.icon-loupe::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categories-aside {
+  border-bottom: 1px solid rgb(201, 201, 201);
+  font-size: 0.9rem !important;
+}
+.border-categories {
+  border-bottom: 1px dashed rgb(201, 201, 201);
+}
+.police-categories {
+  font-size: 0.7rem;
+}
+.img-trending {
+  border-radius: 8px;
+  transition: transform 1s;
+  overflow: hidden;
+}
+.img-trending:hover {
+  transform: scale(1.1);
+}
+.img-trending-container {
+  overflow: hidden;
+}
+.icon-circle {
+  font-size: 0.4rem !important;
+}
+.mini-police {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.date-police {
+  font-size: 0.5rem;
+}
+.mini-img {
+  overflow: hidden;
+}
+.card-blue-dress {
+  border: none !important;
+}
+.text-blue-dress {
+  top: 20%;
+  left: 10%;
+}
+.text-office-dress {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.text-office-moove {
+  transition: transform 2s;
+}
+.text-office-moove:hover {
+  transform: translateX(15px);
+}
+.arrow-blue-dress i {
+  transition: transform 2s;
+  cursor: pointer;
+}
+.shop-blue-dress:hover + i::before {
+  transform: translateX(15px);
+}
+.btn-tag {
+  border: 1px solid rgb(184, 182, 182);
+  background-color: white;
+}
+@media screen and (max-width: 658px) {
+  .subcategories-box {
+    margin: auto !important;
+  }
+  .subcategories {
+    list-style: none;
+  }
+}
+@media screen and (max-width: 718px) {
+  .img-blog {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .img-blog {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .img-blog {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .text-blog {
+    padding: 20px 30px;
+  }
+}
+@media screen and (max-width: 538px) {
+  .text-blog {
+    padding: 20px 20px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .barcelona {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 510px) {
+  .text-barcelona {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .azimeto {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 434px) {
+  .bg-language {
+    display: none !important;
+  }
+}

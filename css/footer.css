@@ -1,0 +1,55 @@
+.newsletter {
+  background-color: #f4f4d8;
+}
+::placeholder {
+  font-size: 0.8rem !important;
+}
+
+.btn-newsletter {
+  color: white;
+  border: none;
+  background-color: #2a2a2b;
+  padding: 0px 20px !important;
+  font-size: 0.8rem;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+.icone-footer:hover {
+  color: grey;
+}
+.about-footer {
+  list-style-type: none;
+}
+.about-footer li {
+  transition: transform 3s linear;
+}
+.about-footer li:hover {
+  color: #f15412;
+  transform: translateX(20px);
+}
+.image-footer {
+  border: 1px solid rgb(201, 199, 199);
+  width: 50%;
+  transition: transform 2s linear;
+}
+.image-footer:hover {
+  border: 1px solid #f15412;
+  transform: translateY(-10px);
+}
+.link-footer {
+  text-decoration: none;
+  color: #4c5859;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .img-payment-method {
+    width: 70% !important;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 767px) {
+  .image-footer {
+    width: 40% !important;
+  }
+}
