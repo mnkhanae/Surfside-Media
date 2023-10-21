@@ -1,7 +1,7 @@
 # Surfside-Media
 ![logo](https://github.com/mnkhanae/Surfside-Media/assets/126266227/bbaea595-f85c-4e3f-a321-fef3d6534a20)
 
-Reproduction de la partie front-end du site web e-commerce Surfside Media. Ce projet m'a permis d'apprendre à structure les projets de manière plus organisée, de mieux maîtriser html, css, avascript et bootstrap.
+Reproduction de la partie front-end du site web e-commerce Surfside Media. Ce projet m'a permis d'apprendre à structure les projets de manière plus organisée, de mieux maîtriser html, css, avascript et bootstrap. Source: https://www.surfsidemedia.in/
 
 # Fonctionnalités
 - **Cartes produits :** Effet hover et icônes cliquables avec tooltip
