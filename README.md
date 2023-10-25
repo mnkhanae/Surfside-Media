@@ -18,6 +18,7 @@ Reproduction de la partie front-end du site web e-commerce Surfside Media. Ce pr
 - Bootstrap
 
 # Captures décran
+![Natural Mockup Freebie Lead Magnet Facebook Post](https://github.com/mnkhanae/Surfside-Media/assets/126266227/658944f1-d913-4ef0-b3cc-bcaffa7d3db0)
 ![Surfside-Media](https://github.com/mnkhanae/Surfside-Media/assets/126266227/bbb1c25b-5251-4311-8859-58ed8b7e07ce)
 ![Surfsideshop](https://github.com/mnkhanae/Surfside-Media/assets/126266227/e5fe27dc-107f-4f9f-9bea-0c4f364591b6)
 ![Surfsidelogin](https://github.com/mnkhanae/Surfside-Media/assets/126266227/e0625dc6-10ea-4d0a-9cf7-5ba0d0a212db)
